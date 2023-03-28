@@ -1,0 +1,15 @@
+<p>Switch conditions</p>
+
+<div [ngSwitch]="mychoice">
+    <div class="switchCase"></div>
+    <div *ngSwitchCase="'one'">First one</div>
+    <div *ngSwitchCase="'two'">First two</div>
+    <div *ngSwitchCase="'three'">First three</div>
+    <div *ngSwitchCase="'four'">First four</div>
+    <div *ngSwitchDefault>INVALID INPUT</div>
+</div>
+
+<div *ngFor="let x of arrayname;  odd  as i index as f">
+    <h3>{{i}}-->{{x}}-->{{f}}</h3>
+
+</div>
